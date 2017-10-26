@@ -1,7 +1,7 @@
 class BearBackup < Formula
   desc "Bear backup utility"
-  homepage "https://github.com/mivok/bear_backup"
-  head "git@github.com:mivok/bear_backup", :using => :git
+  homepage "https://github.com/jamesstout/bear_backup"
+  head "https://github.com/jamesstout/bear_backup.git", :branch => "my-formula" 
 
   depends_on "python3"
 
